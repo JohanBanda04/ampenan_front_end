@@ -1,0 +1,211 @@
+.widget-stats .stats-icon.stats-icon-lg.stat-lap {
+  font-size: 128px !important;
+  top: 15px !important;
+  color: #fff !important;
+  width: 128px !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  text-shadow: 3px 7px rgba(0, 0, 0, 0.25) !important;
+  opacity: 0.15 !important;
+  right: 0 !important;
+}
+
+.nav-profile .col-md-4,
+.nav-profile .col-md-8 {
+  padding: 0 !important;
+}
+
+.panel-body.panel-stat-lap {
+  display: none;
+}
+
+/* Dashboard */
+.dashboard .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dashboard .row > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.realisasi-card {
+  background-color: #2d353c;
+  padding: 10px;
+}
+
+.penyerapan-chart img {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.progress-title,
+.dashboard-all .panel-heading {
+  color: #adb5bd;
+}
+.progress-angka {
+  font-size: 153%;
+  margin-bottom: 6px;
+}
+.dashboard-progress .progress {
+  height: 10px;
+}
+.dashboard-progress .progress-bar-success {
+  background-color: #00acac;
+}
+.dashboard-progress .progress-bar-danger {
+  background-color: #ea4272;
+}
+.dashboard-progress .progress-bar-bp {
+  background-color: #ffd11c;
+}
+.dashboard-progress .progress-bar-bb {
+  background-color: #8753de;
+}
+.dashboard-progress .progress-bar-bm {
+  background-color: #9f7159;
+}
+
+.nav-pills.chart-deviasi-btn > li {
+  float: none;
+  width: fit-content;
+  display: inline-block;
+}
+
+/* Dipa Collapse Accordion */
+.dipa-collapse .mb-0 {
+  margin: 0 !important;
+}
+.dipa-collapse .card-header {
+  padding: 0 !important;
+}
+.dipa-accordion-btn {
+  width: 100%;
+  background: #20252a;
+  text-align: left;
+  padding: 13px;
+  border-radius: 3px 3px 0px 0px;
+}
+.dipa-accordion-btn.collapsed {
+  border-radius: 3px !important;
+}
+.dipa-accordion-btn a,
+.dipa-accordion-btn.btn-link {
+  color: #fff;
+}
+.dipa-accordion-btn.btn-link:hover,
+.dipa-accordion-btn.btn-link:focus,
+.dipa-accordion-btn.btn-link:active {
+  background: #20252a;
+  text-transform: none !important;
+}
+.dipa-accordion-btn .caret {
+  position: absolute;
+  right: 20px;
+}
+.dipa-accordion-btn .caret::before {
+  font-weight: 900;
+}
+.dipa-collapse .card-body {
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-top: 0px;
+  border-radius: 0px 0px 4px 4px;
+}
+.dipa-collapse.invisible {
+  display: none !important;
+}
+
+/* Dashboard collapse */
+.dashboard-all .dipa-accordion-btn,
+.dashboard-all .dipa-accordion-btn.btn-link:hover,
+.dashboard-all .dipa-accordion-btn.btn-link:focus,
+.dashboard-all .dipa-accordion-btn.btn-link:active {
+  background-color: #2d353c;
+}
+.dashboard-all .panel-collapse > .panel-body {
+  padding: 0;
+  border-top: 0 !important;
+}
+.dashboard-all .realisasi-card.card {
+  border-radius: 0 0 4px 4px;
+}
+
+/* Pelaksanaan Anggaran */
+.verifikasi-icon i {
+  font-size: 18px;
+}
+.col-9 .radio-btn-verifikasi {
+  padding-top: 7px;
+}
+.radio-btn-verifikasi {
+  margin: 7px 10px 0 0;
+}
+.form-group.input-dinamis {
+  padding: 0 10px;
+}
+.col-input-dinamis {
+  padding: 0 5px;
+}
+.pelaksanaan-anggaran hr {
+  border-top-color: rgb(153, 153, 153);
+}
+
+/* Pelaksanaan Anggaran */
+.skor-warna.label-warning {
+  color: #ff9500;
+}
+.skor-warna.label-success {
+  color: #4cd964;
+}
+.skor-warna.label-danger {
+  color: #ff3b30;
+}
+
+input[type="radio"] {
+  vertical-align: middle;
+  margin: -1px 4px 0 0;
+}
+
+.add-new {
+  margin-bottom: 15px;
+}
+
+.radio-text {
+  margin-right: 15px !important;
+}
+
+.grey-line {
+  border-color: #bbb;
+  margin: 10px 0;
+}
+
+#disabled-button-wrapper {
+  display: inline-block;
+}
+
+#disabled-button-wrapper .btn[disabled] {
+  pointer-events: none;
+}
+
+.progress-jenis-belanja .progress {
+  height: 7px;
+}
+
+.progress-bar-striped {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
+}
